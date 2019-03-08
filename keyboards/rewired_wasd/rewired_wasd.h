@@ -54,3 +54,4 @@
   { K_RGUI,  KC_NO,   K_D,     K_S,     K_A,     K_F,     KC_NO,   KC_NO,   KC_NO,   KC_NO,   K_J,     KC_NO,   K_RSFT,  K_BSLS,  K_SCLN,  K_K,     KC_NO,   K_L   }, \
   { KC_NO,   KC_NO,   K_F3,    KC_NO,   K_ESC,   K_G,     KC_NO,   K_RALT,  KC_NO,   KC_NO,   K_H,     K_SPC,   KC_NO,   K_F11,   K_QUOT,  K_F6,    K_UP,    KC_NO }, \
 }
+
