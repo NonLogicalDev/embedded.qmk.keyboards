@@ -47,17 +47,29 @@ void keyboard_pre_init_user(void) {
   // Turn on the LED
   PORTD |= (1<<6);
 
-  // Set up the BUILTIN_LEDS
+  
+  // START: KEYBOARD STATUS LEDS //
+  
+  /// NOTE: This keyboard has both LEDs' anodes connected to +5V line.
+  //        Meaning that LEDs are *Active LOW*. To turn them off the
+  //        voltage on the cathode side should match the 5V line.
+  //
+  //        (i.e pins for those LEDs should be set to HIGH to turn
+  //        them OFF and set to LOW to turn them ON).
+  
+  // Set up the Keyboard Status LEDs.
   DDRE |= (1<<0);
   DDRE |= (1<<1);
-
-  // Turn on the BUILTIN_LEDS
-  PORTE |= (1<<0); // THIS ONE DOES NOT WORK
-  PORTE |= (1<<1); // THIS ONE DOES
-
-  /* PORTE &= ~(1<<1); */
+  
+  // Turn off Keyboard Status LEDs.
+  PORTE |= (1<<0); // (Does not work on my keyboard, probably fried it accidentally)
+  PORTE |= (1<<1); // (This one works and is used for caps lock)
+  
+  // END: KEYBOARD STATUS LEDS //
 }
 
+// Defining LED settings here, as they are global and are not dependent
+// on the layout.
 void led_set_user(uint8_t usb_led) {
   if (IS_LED_ON(usb_led, USB_LED_CAPS_LOCK)) {
     PORTE &= ~(1<<1);
