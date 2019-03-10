@@ -48,10 +48,10 @@
   { KC_NO,   KC_NO,   K_C,     K_X,     K_Z,     K_V,     K_RCTL,  KC_NO,   KC_NO,   KC_NO,   K_M,     KC_NO,   KC_NO,   K_ENT,   KC_NO,   K_COMM,  KC_NO,   K_DOT }, \
   { KC_NO,   KC_NO,   K_F2,    K_F1,    K_GRV,   K_5,     K_LCTL,  KC_NO,   K_PGUP,  K_INS,   K_6,     K_DEL,   KC_NO,   K_F9,    K_MINS,  K_EQL,   K_HOME,  K_F8  }, \
   { KC_NO,   KC_NO,   K_3,     K_2,     K_1,     K_4,     K_F5,    K_PSCR,  K_PGDN,  KC_NO,   K_7,     KC_NO,   KC_NO,   K_F10,   K_0,     K_8,     K_END,   K_9   }, \
-  { KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   K_B,     KC_NO,   K_LALT,  KC_NO,   K_RGHT,  K_N,     K_DOWN,  KC_NO,   K_F12,   K_SLSH,  KC_NO,   K_LEFT,  KC_NO }, \
+  { KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   K_B,     KC_NO,   K_RALT,  KC_NO,   K_RGHT,  K_N,     K_DOWN,  KC_NO,   K_F12,   K_SLSH,  KC_NO,   K_LEFT,  KC_NO }, \
   { KC_NO,   KC_NO,   K_E,     K_W,     K_Q,     K_R,     KC_PAUS, K_SLCK,  KC_NO,   KC_NO,   K_U,     KC_NO,   KC_NO,   KC_NO,   K_P,     K_I,     KC_NO,   K_O   }, \
   { KC_NO,   K_LGUI,  K_F3,    K_CAPS,  K_TAB,   K_T,     KC_NO,   K_APP,   KC_NO,   KC_NO,   K_Y,     KC_NO,   K_LSFT,  K_BSPC,  K_LBRC,  K_RBRC,  KC_NO,   K_F7  }, \
   { K_RGUI,  KC_NO,   K_D,     K_S,     K_A,     K_F,     KC_NO,   KC_NO,   KC_NO,   KC_NO,   K_J,     KC_NO,   K_RSFT,  K_BSLS,  K_SCLN,  K_K,     KC_NO,   K_L   }, \
-  { KC_NO,   KC_NO,   K_F3,    KC_NO,   K_ESC,   K_G,     KC_NO,   K_RALT,  KC_NO,   KC_NO,   K_H,     K_SPC,   KC_NO,   K_F11,   K_QUOT,  K_F6,    K_UP,    KC_NO }, \
+  { KC_NO,   KC_NO,   K_F3,    KC_NO,   K_ESC,   K_G,     KC_NO,   K_LALT,  KC_NO,   KC_NO,   K_H,     K_SPC,   KC_NO,   K_F11,   K_QUOT,  K_F6,    K_UP,    KC_NO }, \
 }
 

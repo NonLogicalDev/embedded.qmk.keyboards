@@ -57,3 +57,11 @@ void keyboard_pre_init_user(void) {
 
   /* PORTE &= ~(1<<1); */
 }
+
+void led_set_user(uint8_t usb_led) {
+  if (IS_LED_ON(usb_led, USB_LED_CAPS_LOCK)) {
+    PORTE &= ~(1<<1);
+  } else {
+    PORTE |= (1<<1);
+  }
+}
