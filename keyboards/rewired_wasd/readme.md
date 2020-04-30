@@ -5,10 +5,11 @@
 This is my rewired WASD keyboard.
 
 I really like the form factor and build quality of the WASD Code line, but I
-was not very keen on the lack of configurability.  So I took out the original
-keyboard controller, reverse engineered the keyboard matrix, then soldered a teensy
-in its place and used qmk to get an infinitely more configurable keyboard that
-you can do anything you want with.
+was not very keen on the lack of configurability.
+
+So I took out the original keyboard controller, reverse engineered the keyboard matrix,
+then soldered a teensy in its place and used qmk to get an infinitely more configurable
+keyboard that you can do anything you want with, which looks great and is super well built.
 
 Keyboard Maintainer: [NonLogicalDev](https://github.com/NonLogicalDev)  
 Hardware Supported: WASD Code Keyboard  
