@@ -3,7 +3,7 @@
 This repo contains the following keyboards:
 
   - Rewired WASD keyboard (substituting a teensy for original keyboard controller)
-    - Pinout: [Diagrams](https://docs.google.com/spreadsheets/d/1BXpoQE_QUvWcc9ryiqRdxMu8hShZ6pS50rV03A2WN6E/edit?usp=sharing)
+    - Pinout: [Diagrams](https://docs.google.com/spreadsheets/d/e/2PACX-1vRxIdgc8NgGOEI93AWlQgcAiDqWnSnBPzT1P17Sp4hTiMLflQpSx1hOayXmF-1RIG-I3G3jl7VEAIIj/pubhtml)
   
  ## Build Log
 
